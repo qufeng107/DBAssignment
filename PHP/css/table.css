@@ -1,0 +1,56 @@
+table {
+  border-spacing: 1;
+  border-radius: 25px;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 6px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+table * {
+  position: relative;
+
+}
+table td, table th {
+  padding-left: 8px;
+
+}
+table thead tr {
+  height: 60px;
+  background: #732a9c;
+  font-size: 16px;
+  color:white;
+}
+table tbody tr {
+  height: 48px;
+  border-bottom: 1px solid #dbbcff;
+  background-color: white;
+
+}
+table tbody tr:last-child {
+  border: 0;
+}
+table td, table th {
+  text-align: left;
+}
+table td.l, table th.l {
+  text-align: right;
+}
+table td.c, table th.c {
+  text-align: center;
+}
+table td.r, table th.r {
+  text-align: center;
+}
+
+body {
+  font: 400 14px 'Calibri','Arial';
+  padding: 20px;
+}
+
+blockquote {
+  color: white;
+  text-align: center;
+}

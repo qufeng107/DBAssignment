@@ -1,0 +1,17 @@
+SET FOREIGN_KEY_CHECKS = 0;
+drop table if exists customer;
+drop table if exists account;
+drop table if exists airfield;
+drop table if exists aircraft_parts;
+drop table if exists aircraft;
+drop table if exists branch;
+drop table if exists course;
+drop table if exists customer;
+drop table if exists teaches;
+drop table if exists supplier;
+drop table if exists rent_management;
+drop table if exists lecture;
+drop table if exists hangar;
+drop table if exists term;
+drop table if exists staff;
+SET FOREIGN_KEY_CHECKS = 1;
